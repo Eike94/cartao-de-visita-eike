@@ -1,0 +1,112 @@
+/* ------ Corpo da pagina ------*/
+body{
+    margin: 0;
+}
+.nome{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ Layout lado Esquerdo ------*/
+.left-width{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-width h1 {
+    color: #00ff88;    
+    font-weight: 750;
+    font-size: 3vw;
+}
+.left-width h2 {
+    color: #008044;
+    font-weight: 400;
+    font-size: 3vw;
+}
+.left-width .imagem{
+    width: 30vw;
+}
+
+/* ------ Layout lado Direito ------*/
+.right-width{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-contato{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #008044;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000065;
+}
+.right-contato h1{
+    color: #00ff88;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ------ Referencias dos Links ------*/
+.textfild{
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   
+}
+.textfild a{
+    display: flex;
+    width: 100%;
+    color: rgb(134, 255, 188);
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #201b2c50; margin: 4px; border-radius: 20px;box-shadow: 0 6px 20px #00000065;
+    justify-content: center;
+}
+
+/* ------ Responsividades ------*/
+@media only screen and (max-width: 950px){
+    .right-contato{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .nome{
+        flex-direction: column;
+    }   
+    .left-width h1{
+        font-size: 40px;
+    }
+    .left-width .imagem {
+        display: none;
+    }
+    .left-width{
+        width: 100%;
+        height: auto;
+    }
+    .right-width{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+
+
