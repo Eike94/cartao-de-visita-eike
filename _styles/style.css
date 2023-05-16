@@ -49,7 +49,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #008044;
+    background: #087040;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000065;
 }
@@ -58,6 +58,7 @@ body{
     font-weight: 700;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:5px 3px 8px #201b2c;
 }
 
 /* ------ Referencias dos Links ------*/
@@ -76,9 +77,21 @@ body{
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
-    background: #201b2c50; margin: 4px; border-radius: 20px;box-shadow: 0 6px 20px #00000065;
+    background: #201b2c50; margin: 4px; border-radius: 20px;box-shadow: 1px 2px 3px #c1ffbf59;
     justify-content: center;
 }
+.textfild a:hover{
+    background: #00ff88;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.733);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 105%;
+    
+    
+}
+
 
 /* ------ Responsividades ------*/
 @media only screen and (max-width: 950px){
